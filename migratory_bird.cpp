@@ -15,17 +15,15 @@ int migratoryBirds(vector<int> arr) {
         temp[arr[i]]++;
     }
     
-    int maxi = -1, count = -1, type = -1;
+    int maxi = -1,type = -1;
     
     for(int i = 1; i <= 5; i++){
         if(temp[i] > maxi){
-            count = 1;
+            
             maxi = temp[i];
             type = i;
         }
-        else if(temp[i] == maxi){
-            count++;
-        }
+       
     }
     
     return type;
