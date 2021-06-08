@@ -79,5 +79,4 @@ int main()
              minJumps(arr, size));
     return 0;
 }
-// This code is contributed by
-// Shashank_Sharma
+
